@@ -336,11 +336,13 @@
         width: 40px;
         height: 40px;
         top: 560%;
+        display: none;
     }
     .whatsapp{
         width: 40px;
         height: 30px;  
         top: 560%;  
         margin-left: 140px;    
+        display: none;
     }
  }   

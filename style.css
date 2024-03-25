@@ -215,116 +215,132 @@
        position: absolute;  
    }
    @media screen and (max-width: 480px){
-       .menu{
-           font-size:small;
-   
-       }
-       .presentacion h1, p{
-           font-size: medium;
-       }
-       .biografia{
-          height: 325px;
-         
-       }
-       .biografia h2{
-           font-size: medium;
-       }
-       .informacionBiografia{
-           font-size: small;
-       }
-       .skills ul{
-           margin-left: 1%;
-       }
-       .skills h2{
-           font-size: medium;
-           display: flex;
-           margin-left: 40%;
-       }
-       .html{
-           width: 80px;
-           height: 80px;
-       }
-       .CSS{
-           width: 80px;
-           height: 80px;
-          
-       }
-       .JavaScript{
-           width: 60px;
-           height: 65px;
-       }
-       .Mysql{
-           width: 70px;
-           height: 70px;
-       }
-       .skills li{
-           font-size: small;
-           padding: 25px;
-       }
-       .piano{
-           width: 80px;
-           height: 80px;
-       }
-       .juegos{
-           width: 80px;
-           height: 80px;       
-       }
-       .musica{
-           width: 75px;
-           height: 65px;
-       }
-       .libros{
-           width: 70px;
-           height: 70px;
-       }
-       .hobbies li{
-           font-size: small;
-           padding: 25px;
-       }
-       .tituloHobbies{
-           font-size: medium;
-           display: flex;
-           margin-left: 37%;
-       }
-       .formacion h2{
-           font-size: medium;
-       }
-       .formacion ul{
-           margin-left: 10%;
-       }
-       .formacion li{
-           padding: 25px;
-           font-size: small;
-       }
-       .sanjose{
-           width: 100px;
-           height: 70px;
-       }
-       .comfenalco{
-           width: 100px;
-           height: 70px;
-       }
-       .alura{
-           width: 100px;
-           height: 60px;
-       }
-       .contacto h2{
-           font-size: medium;
-       }
-       .contacto li{
-           display: flex;
-           font-size: small;
-           line-height: 1%;
-       }
-       .correo{
-           width: 40px;
-           height: 40px;
-           top: 353%;
-       }
-       .whatsapp{
-           width: 40px;
-           height: 30px;  
-           top: 353%;  
-           margin-left: 130px;    
-       }
-    }   
+    .menu{           
+        display: 0 auto;
+        margin-left: 7%;           
+    }
+    .menu li{
+     font-size:small;
+     margin-right: 7px;
+     padding: 0px;
+     text-align: center;
+    }
+    .presentacion h1, p{
+        font-size: medium;
+    }
+    .biografia{
+       height: 325px;         
+    }
+    .biografia h2{
+        font-size: medium;
+    }
+    .informacionBiografia{
+        font-size: small;
+    }
+    .skills ul{
+        margin-left:16%;
+        text-align: justify;
+        display: inline-block;
+    }
+     .skills li{
+        font-size: small;
+        padding: 25px; 
+        margin-left: 15 auto; 
+        display: inline-block;        
+    }
+    .skills h2{
+        font-size: medium;
+        display: flex;
+        margin-left: 40%;
+    }
+    .html{
+        width: 80px;
+        height: 80px;
+    }
+     .JavaScript{
+        width: 60px;
+        height: 65px;
+        margin-left: 13%;
+     }
+    .CSS{
+        width: 80px;
+        height: 80px; 
+        display: flex;
+        margin-left: 1%;         
+    }
+    .Mysql{
+        width: 70px;
+        height: 70px;
+    }      
+     .hobbies li{
+        font-size: small;
+        padding: 35px;
+    }
+    .tituloHobbies{
+        font-size: medium;
+        display: flex;
+        margin-left: 37%;
+    }
+    .piano{
+        width: 80px;
+        height: 80px;
+    }
+    .juegos{
+        width: 80px;
+        height: 80px;       
+    }
+    .musica{
+        width: 75px;
+        height: 65px;
+    }
+    .libros{
+        width: 70px;
+        height: 70px;
+        margin-left: 18%;
+    }      
+    .formacion h2{
+        font-size: medium;
+    }
+    .formacion ul{
+        margin-left: 20%;
+    }
+    .formacion li{
+        padding: 25px;
+        font-size: small;
+    }
+    .carreras{
+     margin-left: -20%;
+    }
+    .sanjose{
+        width: 100px;
+        height: 70px;
+    }
+    .comfenalco{
+        width: 100px;
+        height: 70px;
+    }
+    .alura{
+        width: 80px;
+        height: 60px;
+        margin-left: 10%;
+    }
+    .contacto h2{
+        font-size: medium;
+    }
+    .contacto li{
+        display: flex;
+        font-size: small;
+        line-height: 1%;
+    }
+    .correo{
+        width: 40px;
+        height: 40px;
+        top: 560%;
+    }
+    .whatsapp{
+        width: 40px;
+        height: 30px;  
+        top: 560%;  
+        margin-left: 140px;    
+    }
+ }   

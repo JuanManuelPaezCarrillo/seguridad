@@ -65,9 +65,14 @@
        padding-top: 5%;
        display: flexbox;
    }
-   .softSkills{
-        line-height: 20px;
+   .softSkills h2{
+        font-size: x-large;
    }
+   .softSkills li{
+        margin-left: 10%;
+        line-height: 25px;
+   }
+
    .skills{
        text-align:center;
        display: inline;  
@@ -193,7 +198,7 @@
    .cursos{
     margin-top: -8%;   
     margin-left: 14%;
-    line-height: 20px;
+    line-height: 25px;
     }
     .cursos h2{
         margin-left: 0% ;

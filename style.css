@@ -100,7 +100,7 @@
    }
    .Mysql{
        width: 120px;
-       height: 105px;  
+       height: 135px;  
        padding: 10px;
    }
    .html,.JavaScript,.CSS,.Mysql{    
@@ -109,6 +109,7 @@
        margin: 0 auto;      
    }
    .hobbies{
+   
        margin-top: -5%;
        text-align:center;   
        display: inline;  
@@ -116,11 +117,11 @@
    }
    .hobbies ul{
        margin-top: 1%;   
+       margin-left: 8%; 
        display: inline-block;   
        padding: 10%;    
    }
-   .hobbies li{
-       padding: 40px;
+   .hobbies li{     
        margin-top: -19%;
        display: inline-block;
        padding-right: 18px;
@@ -128,7 +129,7 @@
    .tituloHobbies{
        margin-top: -5%;
    }
-   .piano,.juegos,.musica,.libros{
+   .piano,.juegos,.musica,.libros{    
        width: 150px;
        display: flex;
        margin: 0 auto 10px; 
@@ -140,6 +141,12 @@
    }
    .piano{
        height: 80px;
+   }
+   .musica{
+    height: 80px;
+   }
+   .libros{
+    height: 80px;
    }
    .formacion{
        text-align: left    ;
@@ -202,15 +209,15 @@
    }
    .correo{
        width: 100px;
-       height: 100px;
+       height: 70px;
        display: inline-flex;
-       margin-left: 25%;   
+       margin-left: 30%;   
        position: absolute;
    }
    .whatsapp{
-       width: 90px;
-       height: 90px;
-       margin-left: 35%;
+       width: 120px;
+       height: 110px;
+       margin-left: 38%;
        display: inline-flex;
        position: absolute;  
    }
@@ -335,13 +342,11 @@
     .correo{
         width: 40px;
         height: 40px;
-        top: 560%;
         display: none;
     }
     .whatsapp{
         width: 40px;
-        height: 30px;  
-        top: 560%;  
+        height: 40px;
         margin-left: 140px;    
         display: none;
     }

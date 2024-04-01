@@ -72,14 +72,13 @@
         margin-left: 10%;
         line-height: 25px;
    }
-
    .skills{
        text-align:center;
        display: inline;  
        list-style: none;
    }
    .skills ul{
-       margin-top: -1%;   
+       margin-top: 7%;   
        display: inline-block;
        margin-left: 10%;
        padding: 10%;    
@@ -90,6 +89,44 @@
        display: inline-block;
        padding-right: 18px;
    }
+   .contenedor_imagen{
+        margin-left: -3%;
+        margin-top: 22%;
+   }
+   .CCTV{        
+        margin-left: 5%;
+        display: flex;
+        width: 15%;  
+        height: 117px;   
+   }
+   .crisis{
+        margin-top: -11%;
+        display: flex;
+        margin-left: 25%;
+        width: 15%;
+        height: 120px;
+    }
+    .riesgos{
+        margin-top: -11%;
+        display: flex;
+        margin-left: 45%;
+        width: 15%;
+        height: 115px;
+    }
+    .emergencia{
+        margin-top: -10%;
+        display: flex;
+        margin-left: 65%;
+        width: 15%;
+        height: 110px;
+    }
+    .informatica{
+        margin-top: -10%;
+        display: flex;
+        margin-left: 83%;
+        width: 15%;
+        height: 110px;
+    }
    .html{
        width: 200px;
        height: 125px; 
@@ -240,31 +277,32 @@
     .presentacion h1, p{
         font-size: medium;
     }
+    
     .biografia{
        height: 325px;         
     }
     .biografia h2{
         font-size: medium;
     }
-    .informacionBiografia{
+    .sobre_mi{
         font-size: small;
     }
     .skills ul{
-        margin-left:16%;
-        text-align: justify;
-        display: inline-block;
+        
+        display: flex;
     }
      .skills li{
         font-size: small;
         padding: 25px; 
-        margin-left: 15 auto; 
-        display: inline-block;        
+        margin-left: 0 auto; 
+        display: flex;        
     }
     .skills h2{
         font-size: medium;
         display: flex;
         margin-left: 40%;
     }
+    
     .html{
         width: 80px;
         height: 80px;
